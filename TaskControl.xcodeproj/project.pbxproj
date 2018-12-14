@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6ADDB32821C349AA00564696 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADDB32721C349AA00564696 /* AppDelegate.swift */; };
+		6ADDB32A21C349AA00564696 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADDB32921C349AA00564696 /* ViewController.swift */; };
+		6ADDB32D21C349AA00564696 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ADDB32B21C349AA00564696 /* Main.storyboard */; };
+		6ADDB33021C349AA00564696 /* TaskControl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6ADDB32E21C349AA00564696 /* TaskControl.xcdatamodeld */; };
+		6ADDB33221C349AA00564696 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ADDB33121C349AA00564696 /* Assets.xcassets */; };
+		6ADDB33521C349AA00564696 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ADDB33321C349AA00564696 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6ADDB32421C349AA00564696 /* TaskControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ADDB32721C349AA00564696 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6ADDB32921C349AA00564696 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6ADDB32C21C349AA00564696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6ADDB32F21C349AA00564696 /* TaskControl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskControl.xcdatamodel; sourceTree = "<group>"; };
+		6ADDB33121C349AA00564696 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6ADDB33421C349AA00564696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6ADDB33621C349AA00564696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ADDB32121C349AA00564696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ADDB31B21C349AA00564696 = {
+			isa = PBXGroup;
+			children = (
+				6ADDB32621C349AA00564696 /* TaskControl */,
+				6ADDB32521C349AA00564696 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6ADDB32521C349AA00564696 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ADDB32421C349AA00564696 /* TaskControl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ADDB32621C349AA00564696 /* TaskControl */ = {
+			isa = PBXGroup;
+			children = (
+				6ADDB32721C349AA00564696 /* AppDelegate.swift */,
+				6ADDB32921C349AA00564696 /* ViewController.swift */,
+				6ADDB32B21C349AA00564696 /* Main.storyboard */,
+				6ADDB33121C349AA00564696 /* Assets.xcassets */,
+				6ADDB33321C349AA00564696 /* LaunchScreen.storyboard */,
+				6ADDB33621C349AA00564696 /* Info.plist */,
+				6ADDB32E21C349AA00564696 /* TaskControl.xcdatamodeld */,
+			);
+			path = TaskControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6ADDB32321C349AA00564696 /* TaskControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ADDB33921C349AA00564696 /* Build configuration list for PBXNativeTarget "TaskControl" */;
+			buildPhases = (
+				6ADDB32021C349AA00564696 /* Sources */,
+				6ADDB32121C349AA00564696 /* Frameworks */,
+				6ADDB32221C349AA00564696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaskControl;
+			productName = TaskControl;
+			productReference = 6ADDB32421C349AA00564696 /* TaskControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ADDB31C21C349AA00564696 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Yuri ichihara";
+				TargetAttributes = {
+					6ADDB32321C349AA00564696 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 39G96FFRB5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6ADDB31F21C349AA00564696 /* Build configuration list for PBXProject "TaskControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6ADDB31B21C349AA00564696;
+			productRefGroup = 6ADDB32521C349AA00564696 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ADDB32321C349AA00564696 /* TaskControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6ADDB32221C349AA00564696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADDB33521C349AA00564696 /* LaunchScreen.storyboard in Resources */,
+				6ADDB33221C349AA00564696 /* Assets.xcassets in Resources */,
+				6ADDB32D21C349AA00564696 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ADDB32021C349AA00564696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADDB32A21C349AA00564696 /* ViewController.swift in Sources */,
+				6ADDB33021C349AA00564696 /* TaskControl.xcdatamodeld in Sources */,
+				6ADDB32821C349AA00564696 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6ADDB32B21C349AA00564696 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ADDB32C21C349AA00564696 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6ADDB33321C349AA00564696 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ADDB33421C349AA00564696 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6ADDB33721C349AA00564696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6ADDB33821C349AA00564696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6ADDB33A21C349AA00564696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 39G96FFRB5;
+				INFOPLIST_FILE = TaskControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.softbank.i.yi-ichi311.TaskControl";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6ADDB33B21C349AA00564696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 39G96FFRB5;
+				INFOPLIST_FILE = TaskControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.softbank.i.yi-ichi311.TaskControl";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ADDB31F21C349AA00564696 /* Build configuration list for PBXProject "TaskControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ADDB33721C349AA00564696 /* Debug */,
+				6ADDB33821C349AA00564696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ADDB33921C349AA00564696 /* Build configuration list for PBXNativeTarget "TaskControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ADDB33A21C349AA00564696 /* Debug */,
+				6ADDB33B21C349AA00564696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6ADDB32E21C349AA00564696 /* TaskControl.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6ADDB32F21C349AA00564696 /* TaskControl.xcdatamodel */,
+			);
+			currentVersion = 6ADDB32F21C349AA00564696 /* TaskControl.xcdatamodel */;
+			path = TaskControl.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6ADDB31C21C349AA00564696 /* Project object */;
+}
