@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6ACF507E21C389AC0003FF43 /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACF507D21C389AC0003FF43 /* TaskTableViewCell.swift */; };
 		6ADDB32821C349AA00564696 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADDB32721C349AA00564696 /* AppDelegate.swift */; };
 		6ADDB32A21C349AA00564696 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADDB32921C349AA00564696 /* ViewController.swift */; };
 		6ADDB32D21C349AA00564696 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ADDB32B21C349AA00564696 /* Main.storyboard */; };
 		6ADDB33021C349AA00564696 /* TaskControl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6ADDB32E21C349AA00564696 /* TaskControl.xcdatamodeld */; };
 		6ADDB33221C349AA00564696 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ADDB33121C349AA00564696 /* Assets.xcassets */; };
 		6ADDB33521C349AA00564696 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ADDB33321C349AA00564696 /* LaunchScreen.storyboard */; };
+		6ADDB33D21C34EBE00564696 /* プラスのアイコン素材.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ADDB33C21C34EBE00564696 /* プラスのアイコン素材.png */; };
+		6ADDB33F21C3545000564696 /* やや太いバツのアイコン2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ADDB33E21C3545000564696 /* やや太いバツのアイコン2.png */; };
+		6ADDB34121C355BA00564696 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADDB34021C355BA00564696 /* AddTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6ACF507D21C389AC0003FF43 /* TaskTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
 		6ADDB32421C349AA00564696 /* TaskControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ADDB32721C349AA00564696 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6ADDB32921C349AA00564696 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		6ADDB33121C349AA00564696 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6ADDB33421C349AA00564696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6ADDB33621C349AA00564696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ADDB33C21C34EBE00564696 /* プラスのアイコン素材.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "プラスのアイコン素材.png"; sourceTree = "<group>"; };
+		6ADDB33E21C3545000564696 /* やや太いバツのアイコン2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "やや太いバツのアイコン2.png"; sourceTree = "<group>"; };
+		6ADDB34021C355BA00564696 /* AddTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				6ADDB32721C349AA00564696 /* AppDelegate.swift */,
 				6ADDB32921C349AA00564696 /* ViewController.swift */,
 				6ADDB32B21C349AA00564696 /* Main.storyboard */,
+				6ACF507D21C389AC0003FF43 /* TaskTableViewCell.swift */,
+				6ADDB34021C355BA00564696 /* AddTaskViewController.swift */,
+				6ADDB33E21C3545000564696 /* やや太いバツのアイコン2.png */,
+				6ADDB33C21C34EBE00564696 /* プラスのアイコン素材.png */,
 				6ADDB33121C349AA00564696 /* Assets.xcassets */,
 				6ADDB33321C349AA00564696 /* LaunchScreen.storyboard */,
 				6ADDB33621C349AA00564696 /* Info.plist */,
@@ -128,6 +140,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6ADDB33521C349AA00564696 /* LaunchScreen.storyboard in Resources */,
+				6ADDB33F21C3545000564696 /* やや太いバツのアイコン2.png in Resources */,
+				6ADDB33D21C34EBE00564696 /* プラスのアイコン素材.png in Resources */,
 				6ADDB33221C349AA00564696 /* Assets.xcassets in Resources */,
 				6ADDB32D21C349AA00564696 /* Main.storyboard in Resources */,
 			);
@@ -141,6 +155,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6ADDB32A21C349AA00564696 /* ViewController.swift in Sources */,
+				6ADDB34121C355BA00564696 /* AddTaskViewController.swift in Sources */,
+				6ACF507E21C389AC0003FF43 /* TaskTableViewCell.swift in Sources */,
 				6ADDB33021C349AA00564696 /* TaskControl.xcdatamodeld in Sources */,
 				6ADDB32821C349AA00564696 /* AppDelegate.swift in Sources */,
 			);
@@ -304,6 +320,7 @@
 				6ADDB33B21C349AA00564696 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
